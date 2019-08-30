@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ItemLayout"
+    android:paddingRight="10dp"
+    tools:ignore="RtlHardcoded,RtlSymmetry">
+
+    <ImageView
+        android:id="@+id/image_icon_item"
+        style="@style/IconImage"/>
+
+    <LinearLayout
+        android:id="@+id/layout_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/text_name_item"
+            style="@style/ItemTitle" />
+
+        <com.ctetin.expandabletextviewlibrary.ExpandableTextView
+            android:id="@+id/expanded_text_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorSubText"
+            android:textSize="12sp"
+            app:ep_end_color="@color/colorSubText"
+            app:ep_max_line="1"
+            app:ep_need_animation="true"
+            app:ep_need_contract="true"
+            app:ep_need_expand="true"
+            app:ep_need_link="false" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox_isEnabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

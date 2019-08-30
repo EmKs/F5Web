@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ItemLayout"
+    tools:ignore="RtlHardcoded,RtlSymmetry">
+
+    <ImageView
+        android:id="@+id/image_icon_item"
+        style="@style/IconImage"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_icon_item"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/text_name_item"
+            style="@style/ItemTitle" />
+
+        <com.ctetin.expandabletextviewlibrary.ExpandableTextView
+            android:id="@+id/expanded_text_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorSubText"
+            android:textSize="12sp"
+            app:ep_end_color="@color/colorSubText"
+            app:ep_max_line="1"
+            app:ep_need_animation="true"
+            app:ep_need_contract="true"
+            app:ep_need_expand="true"
+            app:ep_need_link="false" />
+
+    </LinearLayout>
+
+</RelativeLayout>

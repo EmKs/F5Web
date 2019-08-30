@@ -1,0 +1,76 @@
+<resources>
+
+    <string name="app_name">F5 Engine</string>
+    <string name="description">Web JavaScript Injector</string>
+    <string name="subTitle">Customize Your WebView</string>
+
+    <string name="script_activity">My Script</string>
+    <string name="edit_activity">Script Editing</string>
+    <string name="about_activity">About/Donation</string>
+
+    <string name="create_script">CreateScript</string>
+    <string name="mine_script">My Script</string>
+    <string name="about_donation">About/Donation</string>
+    <string name="white_list">WhiteList</string>
+
+    <string-array name="plan">
+        <item>System WebView</item>
+        <item>Chromium Core</item>
+        <!--<item>X5 Core</item>-->
+        <!--<item>Meizu WebView</item>-->
+    </string-array>
+
+    <string name="tips_enabled_please">Please Enabled</string>
+    <string name="tips_select_plans">Select Plan</string>
+    <string name="tips_no_data">No Script</string>
+    <string name="tips_support">Support Page</string>
+    <string name="tips_download_success">Download Completion</string>
+    <string name="tips_download_start">Download Start</string>
+    <string name="tips_exists">Script Already Exists</string>
+    <string name="tips_discard_changes">Abandon Change , Quit Directly ?</string>
+    <string name="tips_create_not_exist_file">File does not exist, automatically create</string>
+    <string name="tips_failed_file_read">Failed to read script</string>
+
+    <string name="tips_wechat_pay">WeChatPay : Scanning two-dimensional code donation.</string>
+    <string name="tips_ali_pay">Alipay : Will awaken Alipay, you can donate directly.</string>
+    <string name="tips_hongbao_pay">Hongbao : Receiving Alipay red packets as a donation.</string>
+
+    <string name="input_file_name">Input FileName</string>
+    <string name="input_file_support_page">* Represent All</string>
+    <string name="input_file_description">Describe the function of the script.</string>
+    <string name="file_name">FileName</string>
+    <string name="support_page">Support Page</string>
+    <string name="handle_file">Handle File…</string>
+    <string name="save_failed">Save Failed</string>
+    <string name="save_success">Save Success</string>
+    <string name="file_description">Script Description</string>
+    <string name="file_cover">File already exists. Is it covered ?</string>
+    <string name="is_delete"> Confirm deletion ?</string>
+    <string name="delete">delete</string>
+    <string name="about_text">This module supports APP calling the system WebView and the Chromium kernel.</string>
+    <string name="wechat_pay">WeChatPay Donation</string>
+    <string name="ali_pay">AliPay Donation</string>
+    <string name="hongbao_pay">AliPay Hongbao</string>
+
+    <string name="install_alipay">Please install Alipay</string>
+    <string name="no_install_qq">Please install QQ, Group number has been copied.</string>
+
+    <string name="input_format">0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.js</string>
+
+    <string name="empty_error">Load Fail</string>
+    <string name="empty_load">Loading…</string>
+
+    <string name="xposed_disabled">Xposed Module Disabled</string>
+
+    <string name="tips">Tips</string>
+    <string name="agree">Agree</string>
+    <string name="download">Download</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">edit</string>
+    <string name="save">save</string>
+
+    <string name="exit_app">Press Back Again And Exit</string>
+    <string name="permission_denied">Please grant storage permissions so that APP can run Normally.</string>
+    <string name="permission_refusal">Please grant permissions in settings  - application - authority to enable the program to function normally.</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editText_name"
+        style="@style/DialogInput"
+        android:digits="@string/input_format"
+        android:hint="@string/input_file_name"
+        android:maxLength="50"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="@string/file_name"
+        app:met_floatingLabelTextColor="@color/colorSubText"
+        app:met_maxCharacters="50" />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editText_support_page"
+        style="@style/DialogInput"
+        android:hint="@string/input_file_support_page"
+        android:maxLines="1"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="@string/support_page"
+        app:met_floatingLabelTextColor="@color/colorSubText"
+        app:met_singleLineEllipsis="true" />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editText_description"
+        style="@style/DialogInput"
+        android:hint="@string/input_file_description"
+        android:maxLength="100"
+        android:maxLines="2"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="@string/file_description"
+        app:met_floatingLabelTextColor="@color/colorSubText"
+        app:met_maxCharacters="100"
+        app:met_singleLineEllipsis="true" />
+</LinearLayout>

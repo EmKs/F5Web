@@ -1,0 +1,78 @@
+<resources>
+
+    <string name="app_name">F5引擎</string>
+    <string name="description">网页脚本注入器</string>
+    <string name="subTitle">定制你的Web页面</string>
+
+    <string name="script_activity">我的脚本</string>
+    <string name="edit_activity">脚本编辑</string>
+    <string name="about_activity">关于/捐赠</string>
+
+    <string name="create_script">新建脚本</string>
+    <string name="mine_script">我的脚本</string>
+    <string name="about_donation">关于/捐赠</string>
+    <string name="white_list">白名单</string>
+
+    <string-array name="plan">
+        <item>系统WebView</item>
+        <item>Chromium内核</item>
+        <!--<item>X5内核</item>-->
+        <!--<item>魅族WebView</item>-->
+    </string-array>
+
+    <string name="tips_enabled_please">请先激活</string>
+    <string name="tips_select_plans">选择方案</string>
+    <string name="tips_no_data">暂无脚本</string>
+    <string name="tips_support">支持页面</string>
+    <string name="tips_download_success">下载完成</string>
+    <string name="tips_download_start">下载开始</string>
+    <string name="tips_exists">脚本已存在</string>
+    <string name="tips_discard_changes">放弃修改直接退出？</string>
+    <string name="tips_create_not_exist_file">脚本不存在，自动创建</string>
+    <string name="tips_failed_file_read">读取脚本失败</string>
+
+    <string name="tips_wechat_pay">微信捐赠将弹出收款码,您可以截图打开微信扫码捐赠</string>
+    <string name="tips_ali_pay">支付宝捐赠将唤醒支付宝，您可以直接转账捐赠</string>
+    <string name="tips_hongbao_pay">红包捐赠将唤醒支付宝领红包窗口，领取捐赠红包即可</string>
+
+    <string name="input_file_name">脚本名称</string>
+    <string name="input_file_support_page">支持页面*号代表所有,号分隔网址</string>
+    <string name="input_file_description">描述一下脚本的作用</string>
+    <string name="file_name">名称</string>
+    <string name="support_page">支持页面</string>
+    <string name="file_description">脚本描述</string>
+    <string name="handle_file">处理脚本中…</string>
+    <string name="save_failed">保存文件失败</string>
+    <string name="save_success">保存成功</string>
+    <string name="file_cover">文件已存在，是否覆盖？</string>
+    <string name="is_delete">确定要删除？</string>
+    <string name="delete">删除</string>
+
+    <string name="empty_error">没有找到脚本</string>
+    <string name="empty_load">正在加载…</string>
+
+    <string name="about_text">本模块支持调用系统WebView和Chromium内核的APP，后续逐步增加其他APP支持，如果您觉得本应用还不错，欢迎加Q群交流：165332276或者捐赠支持</string>
+    <string name="wechat_pay">微信捐赠</string>
+    <string name="ali_pay">支付宝捐赠</string>
+    <string name="hongbao_pay">领红包捐赠</string>
+
+
+    <string name="input_format">0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.js</string>
+
+    <string name="install_alipay">请先安装支付宝</string>
+    <string name="no_install_qq">暂未安装QQ，已复制群号到剪切板</string>
+
+    <string name="xposed_disabled">模块未启用，请确认已经安装Xposed并激活本模块</string>
+
+    <string name="tips">提示</string>
+    <string name="agree">确定</string>
+    <string name="download">下载</string>
+    <string name="cancel">取消</string>
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+
+    <string name="exit_app">再按一次返回退出</string>
+    <string name="permission_denied">请授予存储权限，以便APP能够保存脚本</string>
+    <string name="permission_refusal">请到设置-应用-权限中授予权限，以便APP能够保存脚本</string>
+
+</resources>

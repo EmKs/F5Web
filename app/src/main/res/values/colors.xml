@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#f4c720</color>
+    <color name="colorAccent">#231916</color>
+    <color name="colorBackground">#fafafa</color>
+
+    <color name="colorItemPressed">#f5f5f5</color>
+
+    <color name="colorSubText">#7c7c7c</color>
+    <color name="colorText">#666666</color>
+    <color name="colorEditBackground">#333333</color>
+
+    <color name="colorPrimaryPressed">#ffcf00</color>
+
+    <color name="colorBlue">#2b7ceb</color>
+    <color name="colorRed">#f40000</color>
+    <color name="colorGreen">#00d358</color>
+
+</resources>
