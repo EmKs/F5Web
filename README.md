@@ -1,0 +1,5 @@
+# F5Web
+F5Web Xposed插件，利用WebView和Chromium的伪协议或注入方法使所有WebView和部分Chromium可以注入自定义的Js脚本
+
+可自定义脚本注入到系统WebView和Chromium内核
+换句话说，只要是用了系统WebView的App调用的页面，或Chromium（没有魔改）都可注入js
